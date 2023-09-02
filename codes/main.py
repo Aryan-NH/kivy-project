@@ -98,7 +98,7 @@ class CameraClick(Screen):
 style = Builder.load_file("main.kv")
 class MyyApp(App):
     def build(self):
-        #Window.size = (Window.width, Window.height)
+        Window.size = (Window.width, Window.height)
         return style
 
 if __name__ == "__main__":
