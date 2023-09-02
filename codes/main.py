@@ -95,7 +95,7 @@ class CameraClick(Screen):
         cell_counting(image_path)
 
 #////////////////////////////////////////////////////////////////////////
-style = Builder.load_file("MyApp.kv")
+style = Builder.load_file("main.kv")
 class MyyApp(App):
     def build(self):
         #Window.size = (Window.width, Window.height)
